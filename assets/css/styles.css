@@ -387,10 +387,13 @@ iframe {
 }
 
 .about_info{
-  margin: 10px;
+  /* margin: 10px; */
   display: flex;
-  justify-content: space-between;
+  justify-self: center;
   border-radius: 10px;
+  /* gap: 2rem; */
+  margin-right: 1rem;
+  gap: 1.5rem;
 }
 
 .about_info_name{
@@ -568,7 +571,7 @@ iframe {
 /*==================== FOOTER ====================*/
 .footer{
   padding-top: 2rem;
-  
+  width: 100%;
 }
 
 .footer_container{
@@ -758,9 +761,9 @@ iframe {
     text-align: center;
   }
 
-  .about_info{
+  /* .about_info{
     justify-content: space-between;
-  }
+  } */
 
   .portfolio_img{
     height: 100%
@@ -801,9 +804,10 @@ iframe {
   } */
 
   .about_info{
-    gap: 5rem;
-    display: flex;
+    /* gap: 5rem; */
+    display:flex;
     justify-content: center;
+    gap: 2rem;
   }
 
   .contact_container {padding: 20px;}
@@ -825,3 +829,4 @@ iframe {
     margin-top: 4.5rem;
   }
 }
+
